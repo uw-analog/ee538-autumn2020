@@ -21,20 +21,20 @@ r2 vsig_filt vsignal 15.915k
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Nov 29 14:24:42 2020
-Total elapsed time: 2.475 seconds.
+Date: Thu Dec 03 07:56:57 2020
+Total elapsed time: 4.134 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1022319
-traniter = 1022316
-tranpoints = 511159
-accept = 506756
-rejected = 4403
+totiter = 1020457
+traniter = 1020454
+tranpoints = 510228
+accept = 506198
+rejected = 4030
 matrix size = 6
 fillins = 0
 solver = Normal
 Matrix Compiler1: 110 bytes object code size  0.0/0.0/[0.0]
-Matrix Compiler2: 346 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: 346 bytes object code size  0.0/0.0/[0.0]
 
