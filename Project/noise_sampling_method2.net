@@ -1,0 +1,10 @@
+* C:\Users\Jason\Documents\uw\ee538-autumn2020\Project\noise_sampling_method2.asc
+V2 vnoise 0 PWL file=C:\Users\Jason\Documents\uw\ee538-autumn2020\Project\input_noise.csv
+C1 vn_filt 0 10n
+R1 vn_filt vnoise 10k
+.wave C:\Users\Jason\Documents\uw\ee538-autumn2020\Project\sampled_noise.wav 32 20e3 V(vn_filt)
+.tran 0 100m 0 .5u
+.IC V(vn_filt) = 0
+* Voltage waveforms are converted to a wave file using the '.wave' SPICE directive. \nThis models the sampling process of the ADC, as the analog voltage is only saved at integer multiples of the sampling period.
+.backanno
+.end
